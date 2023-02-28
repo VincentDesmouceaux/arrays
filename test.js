@@ -18,3 +18,5 @@ for (let i = 0; i < temperatures.length; i++) {
   }
   console.log("--");
 }
+
+("test");
