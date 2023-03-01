@@ -15,7 +15,7 @@ const TableMult = (num) => {
 
   for (let i = 1; i <= 10; i++) {
     let result = i * num;
-    results.push(i + "*" + num + "=" + result);
+    results.push(i + " * " + num + " = " + result);
   }
 
   return results.join("\n");
