@@ -24,3 +24,4 @@ const secondGreatLow = (values) => {
 };
 
 console.log(secondGreatLow([1, 42, 47, 238]));
+console.log(secondGreatLow(["ERT", 2, 3, 138]));
