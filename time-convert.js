@@ -17,4 +17,4 @@ const timeConvert = (num) => {
 
   return hours + ":" + minutes + ":" + seconds;
 };
-console.log(timeConvert(4569));
+console.log(timeConvert(12854));
