@@ -3,7 +3,7 @@ const arrayAddition = (tab) => {
     return a - b;
   });
 
-  console.log(sortedTab);
+  // console.log(sortedTab);
 
   const max = sortedTab.pop();
   let result = 0;
@@ -11,8 +11,8 @@ const arrayAddition = (tab) => {
   for (let i = 0; i < sortedTab.length; i++) {
     result = result + sortedTab[i];
   }
-  console.log(sortedTab);
-  console.log(max);
+  // console.log(sortedTab);
+  // console.log(max);
 
   if (result === max) {
     return true;
